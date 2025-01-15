@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ruda:wght@400..900&display=swap");
+* {
+  background-color: black;
+  color: white;
+}
+#main-container {
+  position: relative;
+  width: 1181px;
+  height: 712px;
+  top: 154px;
+  left: 198px;
+}
+h1 {
+  width: 600px;
+  height: auto;
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 77.45px;
+  text-align: left;
+}
+.form-input {
+  border-style: none;
+  width: 1177px;
+  height: 46.01px;
+  border-bottom: 1px solid #ffffff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29.05px;
+  text-align: left;
+  margin: 10px;
+}
+.checkbox-dot {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29.05px;
+  text-align: left;
+}
+.checkbox {
+  margin-top: 20px;
+  width: 244px;
+  height: 29px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29.05px;
+  text-align: left;
+}
+#toc {
+  margin: 20px;
+  margin-top: 40px;
+  width: 430px;
+  height: 29px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29.05px;
+  text-align: left;
+}
+button {
+    margin-top: 40px;
+  width: 226px;
+  height: 58px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29.05px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}

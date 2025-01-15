@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <h1>Signup</h1>
+      <form>
+        <input
+          id="name"
+          class="form-input"
+          type="text"
+          placeholder="Full Name"
+          required
+        />
+        <input
+          id="email"
+          class="form-input"
+          type="email"
+          placeholder="Email"
+          required
+        />
+        <input
+          id="password"
+          class="form-input"
+          type="password"
+          placeholder="Password"
+          required
+        />
+        <input
+          class="form-input"
+          id="Cpassword"
+          type="text"
+          placeholder="Confirm Password"
+          required
+        />
+        <input
+          id="date"
+          class="form-input"
+          class="form-input"
+          type="date"
+          placeholder="dd/mm/yyyy"
+          required
+        />
+
+        <input
+          id="student"
+          class="checkbox-dot"
+          type="radio"
+          name="entry"
+          value="Student"
+        />
+        <span class="checkbox">Student</span>
+        <input id="employee" name="entry" class="checkbox-dot" type="radio" />
+        <span class="checkbox"> Employee</span>
+        <br />
+        <input type="checkbox" /><span id="toc"
+          >I agree to all the Terms and conditions</span
+        >
+        <br/>
+        <button type="submit">Signup</button>
+      </form>
+    </div>
+  </body>
+</html>

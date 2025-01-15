@@ -61,9 +61,16 @@
         <input type="checkbox" /><span id="toc"
           >I agree to all the Terms and conditions</span
         >
-        <br/>
+        <br />
         <button type="submit">Signup</button>
       </form>
     </div>
+    <script>
+      const password = document.getElementById("password");
+      const Cpassword = document.getElementById("Cpassword");
+      if (password !== Cpassword) {
+        alert("Passwords Do Not Match");
+      }
+    </script>
   </body>
 </html>
